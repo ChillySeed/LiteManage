@@ -16,8 +16,6 @@ It provides essential tools for:
 - Sales recording
 - Stock monitoring
 
-> “Everything you need. Nothing you don’t.”
-
 ---
 
 ## Features
@@ -66,3 +64,13 @@ php artisan migrate --seed
 ```bash
 php artisan serve
 ```
+
+
+## Documentation
+
+- [Getting Started](docs/getting-started.md)
+- [Product Management](docs/product-management.md)
+- [Handling Sales](docs/handling-sales.md)
+- [Customer Profiles](docs/customer-profiles.md)
+- [Database Structure](docs/database-structure.md)
+- [FAQ](docs/faq.md)
