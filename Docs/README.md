@@ -67,8 +67,8 @@ php artisan serve
 
 ## Documentation
 
-- [Getting Started](docs/getting-started.md)
-- [Product Management](docs/product-management.md)
-- [Handling Sales](docs/handling-sales.md)
-- [Customer Profiles](docs/customer-profiles.md)
-- [Database Structure](docs/database-structure.md)
+- [Getting Started](getting-started.md)
+- [Product Management](product-management.md)
+- [Handling Sales](handling-sales.md)
+- [Customer Profiles](customer-profiles.md)
+- [Database Structure](database-structure.md)
