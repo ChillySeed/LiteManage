@@ -1,0 +1,340 @@
+*{
+    margin: 1px;
+}
+
+.phparabig{
+    font-size: 85px;
+}
+
+.title-content{
+    display:block;
+    margin-bottom: 15px;
+}
+
+.titletext{
+    font-size: 50px;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.aboutLME-headtop{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    font-size: 30px;
+    
+}
+.aboutLME-head1{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.aboutLME-head2{
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.aboutLME-content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.aboutLME-dochead{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 25px;
+    font-size: 25px;
+    display: inline-block;
+}
+.aboutLME-docheadlink{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    
+}
+.LME-tabletitle {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.LME-tablecontainer {
+    padding: 0 40px;
+    font-size: 13px;
+    color: #ddd;
+}
+
+.LME-datatable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.LME-datatable thead {
+    background: #111;
+}
+
+.LME-tablestyle {
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+.LME-datatable td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #333;
+}
+
+.LME-datatable tr:hover {
+    background: #2c2c2c;
+}
+
+.LME-btn-add {
+    background: #00b894;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.LME-btn-add:hover {
+    background: #019870;
+}
+
+.LME-btn-edit {
+    background: #0984e3;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 4px;
+    transition: background 0.2s;
+}
+
+.LME-btn-edit:hover {
+    background: #0766b4;
+}
+
+.LME-btn-delete {
+    background: #d63031;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.2s;
+}
+
+.LME-btn-delete:hover {
+    background: #b02323;
+}
+
+.maindesign{
+    margin: 4px 2px 2px 1px;
+    box-shadow: inset;
+}
+.LME-formwrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #1e1e1e;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+.LME-formcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.LME-formtext {
+    color: #ddd;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.LME-input {
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #2b2b2b;
+    color: #fff;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.LME-input:focus {
+    border-color: #00b894;
+}
+
+.LME-buttonrow {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 16px;
+}
+
+.LME-btn-save {
+    padding: 10px 20px;
+    background: #00b894;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.LME-btn-save:hover {
+    background: #019870;
+}
+
+.LME-btn-cancel {
+    padding: 10px 20px;
+    background: #636e72;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.LME-btn-cancel:hover {
+    background: #555;
+}
+
+
+/* === DASHBOARD === */
+.LME-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.LME-dashboard.small {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+/* === CARD DESIGN === */
+.LME-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.LME-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.LME-card h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.LME-card .value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+    line-height: 1.3;
+}
+
+/* === COLOR ACCENTS === */
+.LME-card.blue   { border-left: 5px solid #3498db; }
+.LME-card.green  { border-left: 5px solid #2ecc71; }
+.LME-card.red    { border-left: 5px solid #e74c3c; }
+.LME-card.orange { border-left: 5px solid #f39c12; }
+.LME-card.teal   { border-left: 5px solid #1abc9c; }
+.LME-card.purple { border-left: 5px solid #9b59b6; }
+
+/* === SECTIONS === */
+.LME-section {
+    margin-top: 32px;
+}
+
+.LME-section h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 6px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* === MINI TABLES === */
+.LME-table-mini {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.LME-table-mini th, 
+.LME-table-mini td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    text-align: left;
+}
+
+.LME-table-mini th {
+    background: #f9f9f9;
+    font-weight: 600;
+    color: #444;
+}
+
+.LME-table-mini tr:hover td {
+    background: #fafafa;
+}
+
+/* === CHART CONTAINER === */
+.LME-chart {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 24px;
+}
